@@ -1,0 +1,142 @@
+body {
+	background-color: rgb(246, 249, 252) ;
+	color: rgba(30,30,30,12);
+	font-family: Times New Roman ;
+	font-size: 16px ;
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif; 
+	letter-spacing: 1px ;
+}
+
+h1 {
+	color: rgb(214, 125, 153) ;
+	font-size: 40px ;
+	font-weight: 700 ;
+}
+
+h2 {
+	color: rgb(146, 195, 252) ;
+	font-size: 32px ;
+	font-weight: 500 ;
+}
+
+h3 {
+	color: rgb(167, 182, 222);
+	font-size: 20px ;
+	font-weight: 500 ;
+}
+
+a {
+	text-decoration: none ;
+	color : rgb(171, 132, 224) ;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif; 
+}
+
+a:hover {
+	color: black ;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif; 
+}
+
+.container{
+	width: 700px ;
+	margin: 40px auto ;
+}
+
+.card-white {
+	background-color: white ;
+	padding: 40px ;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1) ;
+	border-radius: 2px ;
+	margin: 20px 0px ;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50% ;
+	width: 170px ;
+}
+
+.btn-purple {
+	background-color : rgb(171, 132, 224) ;
+	color: white ;
+	padding: 10px 15px ;
+	border-radius: 4px ;
+}
+
+.btn-purple:hover {
+	background-color: rgb(214, 125, 153) ;
+	color: pink ;
+}
+
+#introduction p {
+	margin-bottom: 40px ;
+}
+
+#space p {
+	margin-bottom: 30px ;
+	margin-top: 30px ;
+}
+
+#lycée {
+	width: 130px ;
+}
+
+#ESSEC {
+	width: 270px ;
+}
+
+.écoles {
+	border-radius: 2%
+}
+
+.list-inline {
+	list-style: none ;
+	padding: 0px ;
+}
+
+.list-inline li {
+	display : inline;
+	padding: 12px ;
+}
+
+.list-inline i {
+	font-size: 30px ;
+}
+
+.list-inline i:hover {
+	color: rgb(167, 182, 222);
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px ;
+	}
+}
+
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px ;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px ;
+	}
+}
+
+
+
+
+
+
+
+
+
+
